@@ -1,0 +1,18 @@
+{
+  "name": "dukebites",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init:local": "wrangler d1 execute dukebites --local --file=schema.sql",
+    "db:init": "wrangler d1 execute dukebites --remote --file=schema.sql",
+    "ingest": "node ingest/run.mjs",
+    "ingest:dry": "node ingest/run.mjs --dry-run",
+    "test": "node --test ingest/test/*.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

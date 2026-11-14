@@ -1,0 +1,22 @@
+name = "dukebites"
+main = "src/worker.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+SITE_NAME = "Duke Bites"
+SITE_URL = "https://bites.example.com"          # change to your domain
+FROM_EMAIL = "Duke Bites <daily@example.com>"   # must be on a domain verified in Resend
+
+[[d1_databases]]
+binding = "DB"
+database_name = "dukebites"
+database_id = "REPLACE_WITH_ID_FROM_wrangler_d1_create"
+
+# 11:00 UTC = 6:00 AM EST / 7:00 AM EDT
+[triggers]
+crons = ["0 11 * * *"]
+
+# Secrets (set with `npx wrangler secret put NAME`):
+#   RESEND_API_KEY   - from resend.com
+#   ADMIN_PASSWORD   - password for /admin
+#   INGEST_TOKEN     - long random string shared with the GitHub Action

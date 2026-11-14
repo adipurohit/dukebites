@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CAMPUSGROUPS//Duke University//EN
+X-WR-CALNAME:Duke University
+BEGIN:VEVENT
+DTSTAMP:20261113T120000Z
+ORGANIZER;CN="Duke Chinese Students: Social":mailto:noreply@campusgroups.com
+CATEGORIES;X-CG-CATEGORY=event_tags:Social
+DTSTART:20261114T230000Z
+DTEND:20261115T010000Z
+UID:CG-111
+SUMMARY;ENCODING=QUOTED-PRINTABLE:Mooncake =E2=80=93 Game Night
+LOCATION: Sign in to download the location
+URL:https://duke.campusgroups.com/rsvp?id=111
+DESCRIPTION:Come hang out! Free boba and snacks for everyone\, first come f
+ irst served.
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261115T170000Z
+DTEND:20261115T180000Z
+UID:CG-222
+SUMMARY:Canned Food Drive Kickoff
+LOCATION:Bryan Center Plaza
+DESCRIPTION:Help with our food drive for the food bank.
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20261116T120000
+DTEND;TZID=America/New_York:20261116T130000
+UID:CG-333
+SUMMARY:Pratt Lunch & Learn
+LOCATION:Wilkinson 021, Durham, NC 27708, United States
+DESCRIPTION:Lunch will be provided. RSVP required.
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261117T000000Z
+UID:CG-444
+SUMMARY:Formal Dinner Gala
+DESCRIPTION:Tickets are $25. Dinner included.
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261118T220000Z
+UID:CG-555
+SUMMARY:Study Break
+DESCRIPTION:Cookies in the commons.
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260101T220000Z
+UID:CG-OLD
+SUMMARY:Old pizza party
+DESCRIPTION:pizza
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261119
+UID:CG-666
+SUMMARY:Food Truck Rodeo
+DESCRIPTION:Food trucks on the quad all day.
+END:VEVENT
+END:VCALENDAR
